@@ -5,24 +5,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Instagram Login</title>
-    
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <div class="login-container">
         <div class="logo">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram Logo">
+            <h1>Instagram</h1>
         </div>
-        <form>
-            <input type="text" placeholder="Phone number, username, or email">
-            <input type="password" placeholder="Password">
-            <button type="submit" class="login-btn">Log In</button>
+        <form action="#" method="post">
+            <input type="text" placeholder="Username or email" name="username" required>
+            <input type="password" placeholder="Password" name="password" required>
+            <button type="submit">Log In</button>
+            <p class="forgot-password"><a href="#">Forgot password?</a></p>
         </form>
-        <div class="or-divider">
-            <div></div>
-            <span>OR</span>
-            <div></div>
+        <div class="signup">
+            <p>Don't have an account? <a href="#">Sign up</a></p>
         </div>
-        <a href="#" class="forgot-password">Forgot password?</a>
     </div>
 </body>
 </html>
