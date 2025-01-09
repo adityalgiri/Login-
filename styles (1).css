@@ -1,0 +1,112 @@
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fafafa;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.login-container {
+  width: 100%;
+  max-width: 350px;
+  background: #fff;
+  border: 1px solid #dbdbdb;
+  padding: 40px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  border-radius: 8px;
+}
+
+.logo {
+  font-family: 'Arial', sans-serif;
+  font-size: 32px;
+  font-weight: bold;
+  color: #262626;
+  margin-bottom: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  margin-bottom: 12px;
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #dbdbdb;
+  border-radius: 4px;
+}
+
+button {
+  padding: 10px;
+  font-size: 14px;
+  color: #fff;
+  background-color: #0095f6;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0077c2;
+}
+
+.divider {
+  display: flex;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.divider span {
+  flex: 1;
+  font-size: 12px;
+  color: #8e8e8e;
+  text-align: center;
+  position: relative;
+}
+
+.divider span::before,
+.divider span::after {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background-color: #dbdbdb;
+  position: absolute;
+  top: 50%;
+  width: 40%;
+}
+
+.divider span::before {
+  left: 0;
+}
+
+.divider span::after {
+  right: 0;
+}
+
+.fb-login {
+  background-color: #1877f2;
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+.fb-login:hover {
+  background-color: #145dbf;
+}
+
+.forgot-password {
+  margin-top: 15px;
+}
+
+.forgot-password a {
+  color: #0095f6;
+  text-decoration: none;
+}
+
+.forgot-password a:hover {
+  text-decoration: underline;
+}
